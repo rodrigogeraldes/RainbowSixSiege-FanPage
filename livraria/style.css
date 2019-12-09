@@ -1,0 +1,180 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+div#main{
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div#titulo{
+    margin-left: 0px;
+}
+
+
+@font-face {
+     font-family: Alcubierre;
+     src: url('Alcubierre.ttf');
+}
+
+h1#main{
+    text-shadow: 3px 3px 4px black;
+    font-family: Arial;
+}
+
+#footer{
+    margin-top: 0px;
+    padding-bottom: 5px;
+}
+
+#drop{
+    margin-left: 7%;
+}
+
+#menu{
+    margin-top: 0px;
+    padding-top: 3px;
+    background-color: white;
+}
+
+
+#menu ul li a{
+    font-family: Arial;
+}
+
+#menu ul li a:hover{
+    color:white;
+}
+
+body{
+    margin: 0;
+    background-attachment: fixed;
+    background-repeat:space;
+    background-size: cover;
+}
+
+#menu ul{
+    list-style: none;
+    margin-left: 0%;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    padding: 3px 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color:3385ff;
+}
+#menu a{
+    background-color: white;
+}
+#menu a:hover{
+    background-color: rgb(0, 123, 255);
+}
+
+div#expo{
+    display: flex;
+    margin-left: 3%;
+}
+
+div#livros{
+    width:60%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display:flex;
+    margin-left:20%;
+    border-width: medium;
+    border-style: solid;
+    border-color: rgb(0, 123, 255); 
+    border-radius: 10px 20px;
+}
+
+
+div#expo1{
+    display: flex;
+    margin-left: 0;
+}
+
+
+#card{
+    font-size:1.2rem;
+}
+
+
+div#left{
+    width:60%;
+}
+
+div#left1{
+    width:50%;
+}
+
+img#right{
+    margin-top: 2%;
+    margin-left:10px;
+    margin-right: 100px;
+}
+
+#bttn{
+    margin-left: 4%;
+}
+
+#bttn1{
+    margin-right: 20%;
+}
+
+#texto_breve{
+    margin-right: 20%;
+    text-align: justify;
+    font-size: 1.5rem;
+    margin-top: 3%;
+    font-family: Arial;
+}
+
+#texto_breve2{
+    margin-right: 20%;
+    text-align: justify;
+    font-size: 1.4rem;
+    margin-top: 3%;
+    font-family: Arial;
+}
+
+
+#texto_breve1{
+    margin-left:5%;
+    margin-right: 5%;
+    text-align: justify;
+    font-size: 1.5rem;
+    margin-top: 3%;
+    font-family: Arial;
+}
+
+a#titulo_fixo{
+    text-decoration: none;
+}
+
+table#login{
+  border-collapse: separate;
+  border-spacing: 0 8px;
+  margin-top: -8px;
+}
+
+td#login {
+  border: 1px solid rgb(0, 123, 255);
+  border-left-width: 0;
+  min-width: 120px;
+  height: 18px;
+}
+
+td#login:first-child {
+  border-left-width: 1px;
+}
+
+.card{
+    border-width: medium; border-style: solid; border-color: rgb(0, 123, 255); 
+}
