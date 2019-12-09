@@ -1,0 +1,168 @@
+div#conteudo{
+    background-image: linear-gradient(to right, rgba(70, 130, 180,0.5), darkgray);
+    border-color: black;
+    border-radius: 10px 20px;
+    margin-left: 5%;
+    margin-right: 0;
+    display:flex;
+}
+
+div#conteudo1{
+    background-image: linear-gradient(to right, rgba(184,134,11,0.5), dimgray);
+    border-color: black;
+    border-radius: 10px 20px;
+    margin-left: 5%;
+    margin-right: 0;
+}
+
+div#conteudo2{
+    background-image: linear-gradient(to right, rgba(184,134,11,0.5), rgba(0,0,255, 0.5));
+    border-color: black;
+    border-radius: 10px 20px;
+    margin-left: 5%;
+    margin-right: 0;
+}
+
+p#textoindex{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
+    color:black;    
+}
+
+p#textoformulario{
+    font-size:1.5rem;
+    color:black;
+}
+
+div#parte{
+    padding: 0;
+    margin-right: 1px;
+    display: flex;
+}
+
+a#linkubi{
+    text-decoration: none;
+    color:white;
+}
+
+a#linkubi:hover{
+    text-decoration: underline;
+    color:steelblue;
+}
+
+div#partegif{
+    padding:0;
+}
+
+img#gif{
+    border-radius: 10px 20px;
+}
+
+select#escolha{
+    border-width: 6px;
+    border-style: solid;
+    border-color: darkgray;
+    background-color: darkgray;
+}
+
+#font{
+    font-size: 3rem;
+}
+select#escolha:hover{
+    background: steelblue;
+    color: white;
+    border-color: steelblue;
+}
+
+@font-face {
+     font-family: rainbow;
+     src: url('Rainbow.ttf');
+}
+
+div#flex{
+    margin-top: 5%;
+    display:flex;
+}
+
+div#right{
+    width: 50%;
+}
+
+div#left{
+    width: 50%;
+}
+
+
+img#right{
+    margin-top: 0;
+    margin-left: 20%;
+}
+
+table#tabelaoperacao{
+    margin-top: 0;
+    margin-left: 20%;
+}
+
+table#tabelaoperacao1{
+    margin-top: 0;
+    margin-left: 35%;
+}
+
+table#tabela{
+     margin-top: 3%;
+    margin-left: 45%;
+}
+
+table#tabela1{
+     margin-top: 3%;
+    margin-left: 40%;
+}
+td#img{
+    padding-left: 50px;
+}
+
+a#link:hover{
+    text-decoration: underline;
+    transition: 2s;
+}
+
+img#imagemoperacao{
+    margin-top: 8%;
+}
+
+p#textooperacao{
+    text-align: justify;
+}
+
+table#nomesoperacao{
+    margin-top: 5%; 
+}
+
+p#nomesoperacao{
+    font-size:2rem;
+    text-shadow: 2px 2px 5px black;
+    text-align:center;
+    font-weight: bold;
+    color:white;
+}
+
+div#links{
+    margin-left: 90%;
+}
+
+a#link{
+    color:white;
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+}
+
+#github{
+	list-style-image:url('Imagens/git.png');
+}
+
+#if{
+	list-style-image:url('Imagens/if.png');
+}
